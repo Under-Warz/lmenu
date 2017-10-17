@@ -64,27 +64,40 @@
 .icon-x5 { font-size:5em;}
 
 // Save variable
-$icon-twitter: "\EA01";
+$icon-logo: "\EA01";
 // Expose as class
-.icon.icon-twitter:before {
-  content: $icon-twitter;
+.icon.icon-logo:before {
+  content: $icon-logo;
 }
 // Save mixin
-@mixin icon--twitter {
-  @include icon($icon-twitter) {
+@mixin icon--logo {
+  @include icon($icon-logo) {
     @content;
   }
 }
 
 // Save variable
-$icon-facebook: "\EA02";
+$icon-mouse: "\EA02";
 // Expose as class
-.icon.icon-facebook:before {
-  content: $icon-facebook;
+.icon.icon-mouse:before {
+  content: $icon-mouse;
 }
 // Save mixin
-@mixin icon--facebook {
-  @include icon($icon-facebook) {
+@mixin icon--mouse {
+  @include icon($icon-mouse) {
+    @content;
+  }
+}
+
+// Save variable
+$icon-mouse-arrow: "\EA03";
+// Expose as class
+.icon.icon-mouse-arrow:before {
+  content: $icon-mouse-arrow;
+}
+// Save mixin
+@mixin icon--mouse-arrow {
+  @include icon($icon-mouse-arrow) {
     @content;
   }
 }

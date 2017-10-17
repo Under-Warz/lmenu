@@ -20,7 +20,7 @@ html {
 
 body {
   color: $lightgrey-color;
-  font-family: $muller;
+  font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -38,8 +38,7 @@ body {
 
 h1 {
   color: $blue-color;
-  font-family: $muller-extrabold;
-  font-weight: normal;
+  font-weight: 200;
   font-size: 2em;
   line-height: $heading-line-height;
   margin: 0;
@@ -55,8 +54,7 @@ h4,
 h5,
 h6 {
   color: $black-color;
-  font-family: $muller;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 30px;
   line-height: $heading-line-height;
   margin: 0;

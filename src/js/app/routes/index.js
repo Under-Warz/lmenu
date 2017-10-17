@@ -2,7 +2,7 @@
 import RoutesData from '../models/routes_data';
 import CoreLayout from '../layouts/CoreLayout';
 import SimpleLayout from '../layouts/SimpleLayout';
-import Home from '../views/Home';
+import Page from '../views/Page';
 import NotFound from '../views/NotFound';
 
 /*  Note: Instead of using JSX, we recommend using react-router
@@ -18,7 +18,7 @@ export const createRoutes = (store) => (
       {
         component: CoreLayout,
         indexRoute: {
-          component: Home
+          component: Page
         }
       },
       {

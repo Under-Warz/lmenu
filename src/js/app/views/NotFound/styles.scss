@@ -6,14 +6,12 @@
   text-align: center;
 
   .title {
-    font-family: $muller;
     font-weight: bold;
     font-size: 50px;
     margin-bottom: 20px;
   }
 
   .description {
-    font-family: $muller;
     font-size: 25px;
   }
 
@@ -21,7 +19,6 @@
     margin-top: 40px;
 
     .route {
-      font-family: $muller;
       color: $mediumgrey-color;
       &:hover {
         color: $blue-color;

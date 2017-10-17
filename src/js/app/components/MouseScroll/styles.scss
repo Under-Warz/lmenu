@@ -1,0 +1,26 @@
+:local(.icon) {
+  position: relative;
+  color: #fff;
+
+  i.icon-mouse {
+    font-size: 18px;
+
+    @include tablet {
+      font-size: 27px;
+    }
+  }
+
+  i.icon-mouse-arrow {
+    position: absolute;
+    font-size: 10px;
+    margin-left: -2px;
+    left: 50%;
+    top: 12px;
+
+    @include tablet {
+      font-size: 15px;
+      margin-left: -3px;
+      top: 20px;
+    }
+  }
+}

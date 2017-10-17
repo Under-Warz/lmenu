@@ -1,0 +1,78 @@
+:local(.home) {
+  padding: 0 20px;
+  height: 100%;
+  min-height: 568px;
+  text-align: center;
+  background: linear-gradient(#99D4C4, #B0CEA6);
+  position: relative;
+
+  @include tablet {
+    min-height: 768px;
+  }
+
+  .logo {
+    position: absolute;
+    top: 65px;
+    left: 50%;
+    margin-left: -39px;
+    color: #6B9F90;
+    font-size: 59px;
+    opacity: 0.42;
+
+    @include tablet {
+      font-size: 101px;
+    }
+  }
+
+  h1 {
+    color: #fff;
+    font-size: 24px;
+    line-height: 35px;
+
+    @include tablet {
+      font-size: 60px;
+      line-height: 78px;
+    }
+  }
+
+  h2 {
+    color: #fff;
+    font-size: 27px;
+    line-height: 35px;
+    margin-bottom: 25px;
+
+    @include tablet {
+      font-size: 50px;
+      line-height: 78px;
+      margin-bottom: 60px;
+    }
+  }
+
+  .scroll {
+    position: absolute;
+    text-align: center;
+    bottom: 26px;
+    left: 0;
+    right: 0;
+    opacity: 0.65;
+    color: #fff;
+
+    @include tablet {
+      bottom: 29px;
+    }
+
+    p {
+      margin-bottom: 8px;
+      font-size: 12px;
+
+      @include tablet {
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+    }
+
+    .mouse {
+      margin: 0 auto;
+    }
+  }
+}
