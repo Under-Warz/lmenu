@@ -1,4 +1,4 @@
-# STARTER REACT
+# LAURENT'S PORTFOLIO
 
 ## Requirements
 
