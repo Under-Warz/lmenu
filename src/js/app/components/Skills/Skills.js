@@ -1,6 +1,6 @@
 // import vendors
 import React from 'react';
-import PropTypes from 'prop-types';
+import i18next from 'i18next';
 
 // import styles
 import styles from './styles';
@@ -9,10 +9,17 @@ import styles from './styles';
 class Skills extends React.Component {
 
   //________________________________________________________
-  // -                                            PROP TYPES
-  static propTypes = {
-  };
+  // -                                       PRIVATE METHODS
 
+  _renderSkills = () => {
+    return i18next.t('skills.skills', { returnObjects: true }).map((skill, index) => {
+      return <div key={index} className="skill">
+        <i className={["icon", skill.icon].join(' ')} />
+        <h4>{skill.title}</h4>
+        <p>{skill.text}</p>
+      </div>
+    });
+  }
 
   //________________________________________________________
   // -                                        PUBLIC METHODS
@@ -24,7 +31,16 @@ class Skills extends React.Component {
   render () {
     return (
       <section className={styles.skills}>
+        <div className="container">
+          <div className="section-title">
+            <h3>{i18next.t('skills.title')}</h3>
+            <p>{i18next.t('skills.subtitle')}</p>
+          </div>
 
+          <div className="skills">
+            {this._renderSkills()}
+          </div>
+        </div>
       </section>
     );
   }

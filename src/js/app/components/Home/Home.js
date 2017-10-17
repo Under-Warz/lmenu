@@ -1,6 +1,6 @@
 // import vendors
 import React from 'react';
-import PropTypes from 'prop-types';
+import i18next from 'i18next';
 
 // import classes
 import Button from '../Button';
@@ -11,12 +11,6 @@ import styles from './styles';
 
 
 class Home extends React.Component {
-
-  //________________________________________________________
-  // -                                            PROP TYPES
-  static propTypes = {
-  };
-
 
   //________________________________________________________
   // -                                        PUBLIC METHODS
@@ -32,14 +26,14 @@ class Home extends React.Component {
 
         <div className="v-align">
           <div className="m-align">
-            <h1>Laurent Menu,</h1>
-            <h2>développeur web & mobile</h2>
-            <Button href="#">Oui, je suis disponible</Button>
+            <h1>{i18next.t('home.title')}</h1>
+            <h2>{i18next.t('home.subtitle')}</h2>
+            <Button href="#">{i18next.t('home.cta')}</Button>
           </div>
         </div>
 
         <div className="scroll">
-          <p>En apprenez plus sur ce que je fais</p>
+          <p>{i18next.t('home.bottom')}</p>
           <div className="mouse"><MouseScroll /></div>
         </div>
       </section>

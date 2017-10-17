@@ -1,3 +1,86 @@
 :local(.skills) {
+  .container {
+    @include tablet {
+      padding: 0;
+    }
+  }
 
+  .skills {
+    @include tablet {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      margin-top: 82px;
+    }
+
+    @include desktop-1280 {
+      margin-top: 72px;
+    }
+
+    .skill {
+      text-align: center;
+      margin-top: 40px;
+
+      @include tablet {
+        position: relative;
+        padding: 0 20px;
+        padding-top: 81px;
+        margin-top: 0;
+        flex: 1;
+      }
+
+      i.icon {
+        color: #E24C38;
+        margin-bottom: 20px;
+
+        &.icon-front { font-size: 61px; }
+        &.icon-back { font-size: 47px; }
+        &.icon-mobile { font-size: 63px; }
+
+        @include tablet {
+          position: absolute;
+          left: 50%;
+
+          &.icon-front { margin-left: -35px; top: 2px; }
+          &.icon-back { margin-left: -31px; top: 16px; }
+          &.icon-mobile { margin-left: -18px; top: 0; }
+        }
+      }
+
+      h4 {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 37px;
+        margin-bottom: 20px;
+
+        @include tablet {
+          font-size: 30px;
+          line-height: 39px;
+          margin-bottom: 18px;
+        }
+
+        @include desktop-1280 {
+          font-size: 32px;
+          line-height: 39px;
+          margin-bottom: 16px;
+        }
+      }
+
+      p {
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 300;
+
+        @include tablet {
+          font-size: 13px;
+          line-height: 17px;
+        }
+
+        @include desktop-1280 {
+          font-size: 14px;
+          line-height: 19px;
+        }
+      }
+    }
+  }
 }

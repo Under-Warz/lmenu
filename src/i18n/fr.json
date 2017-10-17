@@ -1,36 +1,25 @@
 {
-  "header": {
-    "username": "Username",
-    "password": "Password",
-    "submit": "Soumettre",
-    "error_login": "Login invalide",
-    "welcome": "Bienvenue"
-  },
-
   "home": {
-    "title": "REACT REDUX ROUTER STARTER"
+    "title": "Laurent Menu,",
+    "subtitle": "développeur web & mobile",
+    "cta": "Oui, je suis disponible",
+    "bottom": "En apprenez plus sur ce que je fais"
   },
-
-  "counter": {
-    "title": "COUNTER",
-    "increment": "INCREMENT",
-    "double": "DOUBLE (Async)"
-  },
-
-  "todos": {
-    "title": "TODOS",
-    "what_todo": "What needs to be done ?",
-    "submit": "Valider",
-    "empty_field": "Todo value can't be empty",
-    "edit": "Edit",
-    "all": "All",
-    "active": "Active",
-    "complete": "Complete",
-    "remove_all": "REMOVE ALL"
-  },
-
-  "not_found": {
-    "title": "NOT FOUND",
-    "description": "Sorry, this page does not exist"
+  "skills": {
+    "title": "Mon expertise",
+    "subtitle": "J’ai des billes dans chaque étapes du développement",
+    "skills": [{
+      "icon": "icon-front",
+      "title": "Front",
+      "text": "Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac."
+    }, {
+      "icon": "icon-back",
+      "title": "Back",
+      "text": "Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }, {
+      "icon": "icon-mobile",
+      "title": "Mobile",
+      "text": "Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }]
   }
 }

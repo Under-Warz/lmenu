@@ -102,4 +102,43 @@ $icon-mouse-arrow: "\EA03";
   }
 }
 
+// Save variable
+$icon-front: "\EA04";
+// Expose as class
+.icon.icon-front:before {
+  content: $icon-front;
+}
+// Save mixin
+@mixin icon--front {
+  @include icon($icon-front) {
+    @content;
+  }
+}
+
+// Save variable
+$icon-back: "\EA05";
+// Expose as class
+.icon.icon-back:before {
+  content: $icon-back;
+}
+// Save mixin
+@mixin icon--back {
+  @include icon($icon-back) {
+    @content;
+  }
+}
+
+// Save variable
+$icon-mobile: "\EA06";
+// Expose as class
+.icon.icon-mobile:before {
+  content: $icon-mobile;
+}
+// Save mixin
+@mixin icon--mobile {
+  @include icon($icon-mobile) {
+    @content;
+  }
+}
+
 
