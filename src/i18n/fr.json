@@ -21,5 +21,22 @@
       "title": "Mobile",
       "text": "Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     }]
+  },
+  "projects": {
+    "title": "Derniers projets",
+    "subtitle": "Vous souhaitez en voir plus ? <a href=\"mailto:hello@lmenu.fr\">Contactez-moi</a>.",
+    "projects": [{
+      "image": "hitek.png",
+      "name": "Hitek.fr",
+      "subtitle": "APPLICATION MOBILE IOS / ANDROID - REACTNATIVE",
+      "description": "Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "cta": "Voir l’application"
+    }, {
+      "image": "husqvarna.png",
+      "name": "Husqvarna Services",
+      "subtitle": "SITE RESPONSIVE - PHP LARAVEL",
+      "description": "Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "cta": "Voir le site"
+    }]
   }
 }

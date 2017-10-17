@@ -70,14 +70,14 @@ p {
 }
 
 a {
-  color: $black-color;
+  color: #3B9B6D;
   text-decoration: none;
   transition: color 0.1s linear;
 
   &:active,
   &:focus,
   &:hover {
-    color: $blue-color;
+    color: #4C4245;
   }
 
   &:active,
