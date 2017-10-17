@@ -3,14 +3,12 @@ import { combineReducers } from 'redux';
 
 // import classes
 import locationReducer from '../reducers/location';
-import session from '../reducers/session';
 
 
 export const makeRootReducer = (asyncReducers) => {
   return combineReducers({
     // Add sync reducers here
     location: locationReducer,
-    session: session,
     ...asyncReducers
   });
 };

@@ -4,8 +4,6 @@ import CoreLayout from '../layouts/CoreLayout';
 import SimpleLayout from '../layouts/SimpleLayout';
 import Home from '../views/Home';
 import NotFound from '../views/NotFound';
-import CounterRoute from './Counter';
-import TodosRoute from './Todos';
 
 /*  Note: Instead of using JSX, we recommend using react-router
     PlainRoute objects to build route definitions.   */
@@ -21,22 +19,6 @@ export const createRoutes = (store) => (
         component: CoreLayout,
         indexRoute: {
           component: Home
-        }
-      },
-      {
-        path: routesData.getRoute('counter'),
-        component: CoreLayout,
-        indexRoute: CounterRoute(store)
-      },
-      {
-        path: routesData.getRoute('todos'),
-        component: CoreLayout,
-        indexRoute: TodosRoute(store),
-        onEnter: (nextState, replace, cb) => {
-          if (store.getState().session.isNotLoggedIn) {
-            replace('/');
-          }
-          cb();
         }
       },
       {
