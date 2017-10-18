@@ -9,6 +9,7 @@ import Projects from '../../components/Projects';
 import Testimonials from '../../components/Testimonials';
 import Contact from '../../components/Contact';
 import Footer from '../../components/Footer';
+import { scrollIt } from '../../utils/animate';
 
 // import styles
 import styles from './styles';
@@ -22,17 +23,27 @@ class Page extends React.Component {
     super(props);
   }
 
+  //________________________________________________________
+  // -                                       PRIVATE METHODS
+
+  _onClickAvailable = (e) => {
+    e.preventDefault();
+
+    scrollIt(document.getElementById('contact'), 600, 'easeInOutQuad');
+
+    return false;
+  }
 
   //________________________________________________________
   // -                                        PUBLIC METHODS
   render() {
     return (
       <div className={styles.page}>
-        <Home />
+        <Home onClick={this._onClickAvailable} />
         <Skills />
         <Projects />
         <Testimonials />
-        <Contact />
+        <Contact id="contact" />
         <Footer />
       </div>
     );

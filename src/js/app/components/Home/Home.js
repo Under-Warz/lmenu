@@ -28,7 +28,7 @@ class Home extends React.Component {
           <div className="m-align">
             <h1>{i18next.t('home.title')}</h1>
             <h2>{i18next.t('home.subtitle')}</h2>
-            <Button href="#">{i18next.t('home.cta')}</Button>
+            <Button href="#" onClick={this.props.onClick}>{i18next.t('home.cta')}</Button>
           </div>
         </div>
 

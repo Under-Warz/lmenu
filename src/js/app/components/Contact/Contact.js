@@ -19,7 +19,7 @@ class Contact extends React.Component {
 
   render () {
     return (
-      <section className={styles.contact}>
+      <section {...this.props} className={styles.contact}>
         <div className="container">
           <h4>{i18next.t('contact.title')}</h4>
           <p>{i18next.t('contact.subtitle')}</p>

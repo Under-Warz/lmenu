@@ -4,7 +4,7 @@
   padding-right: 0;
 
   .container {
-    @include tablet {
+    @include desktop {
       padding: 0;
     }
   }
@@ -146,6 +146,16 @@
             font-size: 14px;
             line-height: 19px;
             margin-bottom: 20px;
+          }
+        }
+
+        a {
+          &:hover {
+            padding: 13px 35px;
+
+            @include tablet {
+              padding: 14px 45px;
+            }
           }
         }
       }
