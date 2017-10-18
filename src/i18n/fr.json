@@ -38,5 +38,11 @@
       "description": "Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "cta": "Voir le site"
     }]
-  }
+  },
+  "testimonials": [{
+    "message": "Ravi de la collaboration avec Laurent. Efficace et très réactif, l'application IOS est à la hauteur de ce que nous souhaitions.",
+    "initials": "AD",
+    "thumb": null,
+    "function": "Anthony De Oliveira - QUITOQUE"
+  }]
 }

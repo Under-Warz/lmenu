@@ -1,6 +1,6 @@
 /*!
  * modernizr v3.5.0
- * Build https://modernizr.com/download?-input-placeholder-pointerevents-supports-touchevents-addtest-fnbind-printshiv-testprop-dontmin
+ * Build https://modernizr.com/download?-details-input-picture-placeholder-pointerevents-supports-touchevents-addtest-fnbind-printshiv-testprop-dontmin
  *
  * Copyright (c)
  *  Faruk Ates
@@ -1853,6 +1853,60 @@ This test will also return `true` for Firefox 4 Multitouch support.
     }
     return bool;
   });
+
+/*!
+{
+  "name": "details Element",
+  "caniuse": "details",
+  "property": "details",
+  "tags": ["elem"],
+  "builderAliases": ["elem_details"],
+  "authors": ["@mathias"],
+  "notes": [{
+    "name": "Mathias' Original",
+    "href": "https://mathiasbynens.be/notes/html5-details-jquery#comment-35"
+  }]
+}
+!*/
+
+  Modernizr.addTest('details', function() {
+    var el = createElement('details');
+    var diff;
+
+    // return early if possible; thanks @aFarkas!
+    if (!('open' in el)) {
+      return false;
+    }
+
+    testStyles('#modernizr details{display:block}', function(node) {
+      node.appendChild(el);
+      el.innerHTML = '<summary>a</summary>b';
+      diff = el.offsetHeight;
+      el.open = true;
+      diff = diff != el.offsetHeight;
+    });
+
+
+    return diff;
+  });
+
+/*!
+{
+  "name": "picture Element",
+  "property": "picture",
+  "tags": ["elem"],
+  "authors": ["Scott Jehl", "Mat Marquis"],
+  "notes": [{
+    "name": "Specification",
+    "href": "http://picture.responsiveimages.org"
+  },{
+    "name": "Relevant spec issue",
+    "href": "https://github.com/ResponsiveImagesCG/picture-element/issues/87"
+  }]
+}
+!*/
+
+  Modernizr.addTest('picture', 'HTMLPictureElement' in window);
 
 
   // Run each test
