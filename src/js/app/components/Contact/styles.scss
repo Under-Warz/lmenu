@@ -1,3 +1,47 @@
 :local(.contact) {
+  background: #A6C89A;
+  text-align: center;
+  color: #fff;
 
+  h4 {
+    color: #fff;
+    font-size: 28px;
+    line-height: 37px;
+    margin-bottom: 15px;
+
+    @include tablet {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 300;
+    margin-bottom: 25px;
+
+    @include tablet {
+      font-size: 20px;
+      line-height: 27px;
+    }
+
+    @include desktop {
+      max-width: 655px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  a {
+    border: 2px solid #fff;
+    color: #fff;
+    background: none;
+
+    &:hover, &:active {
+      background: #fff;
+      color: #A6C89A;
+      box-shadow: none;
+    }
+  }
 }
