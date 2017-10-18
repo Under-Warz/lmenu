@@ -141,4 +141,43 @@ $icon-mobile: "\EA06";
   }
 }
 
+// Save variable
+$icon-linkedin: "\EA07";
+// Expose as class
+.icon.icon-linkedin:before {
+  content: $icon-linkedin;
+}
+// Save mixin
+@mixin icon--linkedin {
+  @include icon($icon-linkedin) {
+    @content;
+  }
+}
+
+// Save variable
+$icon-github: "\EA08";
+// Expose as class
+.icon.icon-github:before {
+  content: $icon-github;
+}
+// Save mixin
+@mixin icon--github {
+  @include icon($icon-github) {
+    @content;
+  }
+}
+
+// Save variable
+$icon-hopwork: "\EA09";
+// Expose as class
+.icon.icon-hopwork:before {
+  content: $icon-hopwork;
+}
+// Save mixin
+@mixin icon--hopwork {
+  @include icon($icon-hopwork) {
+    @content;
+  }
+}
+
 

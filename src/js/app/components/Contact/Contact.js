@@ -23,7 +23,7 @@ class Contact extends React.Component {
         <div className="container">
           <h4>{i18next.t('contact.title')}</h4>
           <p>{i18next.t('contact.subtitle')}</p>
-          <Button href="#">{i18next.t('contact.cta')}</Button>
+          <Button href="mailto:hello@lmenu.fr">{i18next.t('contact.cta')}</Button>
         </div>
       </section>
     );

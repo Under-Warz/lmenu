@@ -1,3 +1,53 @@
 :local(.footer) {
+  background: #2A3136;
+  text-align: center;
+  padding: 65px 0;
 
+  i.logo {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    background-image: url(../../../../assets/images/logo-footer.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 30px;
+  }
+
+  p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    opacity: 0.40;
+    margin-bottom: 30px;
+  }
+
+  .actions {
+    a {
+      display: inline-block;
+      margin: 0 10px;
+      width: 36px;
+      height: 36px;
+      border-radius: 36px;
+      background: #1C2227;
+      color: #fff;
+      text-align: center;
+      line-height: 36px;
+
+      i.icon {
+        opacity: 0.6;
+        transition: opacity 200ms ease;
+      }
+
+      i.icon-linkedin { font-size: 14px; position: relative; right: -1px; top: -1px; }
+      i.icon-github { font-size: 16px; }
+      i.icon-hopwork { font-size: 22px;position: relative; left: -2px; top: 2px; }
+
+      &:hover {
+        i.icon {
+          opacity: 1;
+        }
+      }
+    }
+  }
 }

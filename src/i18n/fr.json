@@ -49,5 +49,8 @@
     "title": "On travaille ensemble ?",
     "subtitle": "Je serais ravi d’écouter votre projet pour voir ce que nous pourrions faire ensemble. N’hésitez à m’en toucher deux mots.",
     "cta": "C'est parti"
+  },
+  "footer": {
+    "copyright": "Handmade par moi © {{year}}"
   }
 }
