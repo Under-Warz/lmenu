@@ -26,6 +26,16 @@ body {
   height: 100%;
 }
 
+#initOverlay {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(#99D4C4, #B0CEA6);
+  position: fixed;
+  background-size: 100% 150%;
+  z-index: 1;
+}
+
 .container {
   box-sizing: border-box;
 

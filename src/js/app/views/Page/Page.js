@@ -51,6 +51,12 @@ class Page extends React.Component {
   // -                                        PUBLIC METHODS
 
   componentDidMount() {
+    // Remove overlay
+    setTimeout(() => {
+      const overlay = document.getElementById('initOverlay');
+      overlay.parentNode.removeChild(overlay);
+    }, 0);
+
     let queue = new createjs.LoadQueue(false);
     queue.on("fileload", this._handleFileComplete);
     queue.loadManifest({
