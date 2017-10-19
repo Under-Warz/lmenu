@@ -35,6 +35,9 @@ class Page extends React.Component {
   _onClickAvailable = (e) => {
     e.preventDefault();
 
+    // Track event
+    ga('send', 'event', 'Home', 'click', null);
+
     scrollIt(document.getElementById('contact'), 600, 'easeInOutQuad');
 
     return false;

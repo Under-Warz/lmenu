@@ -11,6 +11,11 @@ class Footer extends React.Component {
   //________________________________________________________
   // -                                       PRIVATE METHODS
 
+  _onClick = (network) => {
+    // Track event
+    ga('send', 'event', 'Footer', 'click', network);
+  }
+
   //________________________________________________________
   // -                                        PUBLIC METHODS
   shouldComponentUpdate () {
@@ -25,9 +30,9 @@ class Footer extends React.Component {
           <i className="logo"></i>
           <p>{i18next.t('footer.copyright', { year: new Date().getFullYear() })}</p>
           <div className="actions">
-            <a href="https://www.linkedin.com/in/laurentmenu/" target="_blank"><i className="icon icon-linkedin"></i></a>
-            <a href="https://github.com/Under-Warz" target="_blank"><i className="icon icon-github"></i></a>
-            <a href="https://www.hopwork.fr/profile/laurentmenu" target="_blank"><i className="icon icon-hopwork"></i></a>
+            <a href="https://www.linkedin.com/in/laurentmenu/" target="_blank" onClick={(e) => this._onClick('linkedin')}><i className="icon icon-linkedin"></i></a>
+            <a href="https://github.com/Under-Warz" target="_blank" onClick={(e) => this._onClick('github')}><i className="icon icon-github"></i></a>
+            <a href="https://www.hopwork.fr/profile/laurentmenu" target="_blank" onClick={(e) => this._onClick('hopwork')}><i className="icon icon-hopwork"></i></a>
           </div>
         </div>
       </footer>

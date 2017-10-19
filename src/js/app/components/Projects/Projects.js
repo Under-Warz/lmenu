@@ -22,10 +22,15 @@ class Projects extends React.Component {
           <h4>{project.name}</h4>
           <ul><li><span><i></i>{project.subtitle}</span></li></ul>
           <p dangerouslySetInnerHTML={{__html: project.description}} />
-          <Button href={project.link} target="_blank">{project.cta}</Button>
+          <Button href={project.link} onClick={(e) => this._onClickProject(project.name)} target="_blank">{project.cta}</Button>
         </div>
       </div>;
     });
+  }
+
+  _onClickProject = (name) => {
+    // Track event
+    ga('send', 'event', 'Projects', 'click', name);
   }
 
   //________________________________________________________

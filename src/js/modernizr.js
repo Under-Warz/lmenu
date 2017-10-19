@@ -1665,6 +1665,31 @@ Detects support for the DOM Pointer Events API, which provides a unified event i
 
 /*!
 {
+  "name": "SVG",
+  "property": "svg",
+  "caniuse": "svg",
+  "tags": ["svg"],
+  "authors": ["Erik Dahlstrom"],
+  "polyfills": [
+    "svgweb",
+    "raphael",
+    "amplesdk",
+    "canvg",
+    "svg-boilerplate",
+    "sie",
+    "dojogfx",
+    "fabricjs"
+  ]
+}
+!*/
+/* DOC
+Detects support for SVG in `<embed>` or `<object>` elements.
+*/
+
+  Modernizr.addTest('svg', !!document.createElementNS && !!document.createElementNS('http://www.w3.org/2000/svg', 'svg').createSVGRect);
+
+/*!
+{
   "name": "CSS Supports",
   "property": "supports",
   "caniuse": "css-featurequeries",
@@ -1853,31 +1878,6 @@ This test will also return `true` for Firefox 4 Multitouch support.
     }
     return bool;
   });
-
-/*!
-{
-  "name": "SVG",
-  "property": "svg",
-  "caniuse": "svg",
-  "tags": ["svg"],
-  "authors": ["Erik Dahlstrom"],
-  "polyfills": [
-    "svgweb",
-    "raphael",
-    "amplesdk",
-    "canvg",
-    "svg-boilerplate",
-    "sie",
-    "dojogfx",
-    "fabricjs"
-  ]
-}
-!*/
-/* DOC
-Detects support for SVG in `<embed>` or `<object>` elements.
-*/
-
-  Modernizr.addTest('svg', !!document.createElementNS && !!document.createElementNS('http://www.w3.org/2000/svg', 'svg').createSVGRect);
 
 /*!
 {

@@ -12,6 +12,14 @@ import styles from './styles';
 class Contact extends React.Component {
 
   //________________________________________________________
+  // -                                       PRIVATE METHODS
+
+  _onClick = (e) => {
+    // Track event
+    ga('send', 'event', 'Contact', 'click', null);
+  }
+
+  //________________________________________________________
   // -                                        PUBLIC METHODS
   shouldComponentUpdate () {
     return false;
@@ -23,7 +31,7 @@ class Contact extends React.Component {
         <div className="container">
           <h4>{i18next.t('contact.title')}</h4>
           <p>{i18next.t('contact.subtitle')}</p>
-          <Button href="mailto:hello@lmenu.fr">{i18next.t('contact.cta')}</Button>
+          <Button href="mailto:hello@lmenu.fr" onClick={this._onClick}>{i18next.t('contact.cta')}</Button>
         </div>
       </section>
     );
