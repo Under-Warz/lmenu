@@ -6,7 +6,7 @@
   border-radius: 100px;
   font-size: 16px;
   font-weight: bold;
-  transition: padding 200ms ease, box-shadow 100ms ease;
+  transition: padding 200ms ease, box-shadow 100ms ease, background 150ms ease, color 150ms ease;
 
   @include tablet {
     padding: 14px 45px;

@@ -16,7 +16,7 @@ class Skills extends React.Component {
       return <div key={index} className="skill">
         <i className={["icon", skill.icon].join(' ')} />
         <h4>{skill.title}</h4>
-        <p>{skill.text}</p>
+        <p dangerouslySetInnerHTML={{__html: skill.text}} />
       </div>
     });
   }

@@ -21,7 +21,7 @@ class Projects extends React.Component {
         <div className="details">
           <h4>{project.name}</h4>
           <ul><li><span><i></i>{project.subtitle}</span></li></ul>
-          <p>{project.description}</p>
+          <p dangerouslySetInnerHTML={{__html: project.description}} />
           <Button href={project.link} target="_blank">{project.cta}</Button>
         </div>
       </div>;

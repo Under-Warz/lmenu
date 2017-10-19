@@ -3,7 +3,7 @@
     "title": "Laurent Menu,",
     "subtitle": "développeur web & mobile",
     "cta": "Oui, je suis disponible",
-    "bottom": "En apprenez plus sur ce que je fais"
+    "bottom": "Apprenez-en d'avantage sur ce que je fais"
   },
   "skills": {
     "title": "Mon expertise",
@@ -11,15 +11,15 @@
     "skills": [{
       "icon": "icon-front",
       "title": "Front",
-      "text": "Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac."
+      "text": "Je m'occupe de l'intégration de vos maquettes pour leur donner vie en utilisant les technos habituelles à savoir HTML, CSS et Javascript.<br /><strong>Techno du moment : React.JS</strong>"
     }, {
       "icon": "icon-back",
       "title": "Back",
-      "text": "Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "text": "Je m'occupe de raccorder les applications front à la base de données via une API en utilisant les technos appropriées à chaque projet comme par exemple PHP (Laravel) ou NodeJS.<br /><strong>Techno du moment : NodeJS avec Express</strong><strong>"
     }, {
       "icon": "icon-mobile",
       "title": "Mobile",
-      "text": "Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "text": "Le développement des applications mobiles est également une part importante de mon métier. Que ce soit en language natif (Swift pour iOS ou Java pour Android) ou bien crossplatforme (code unique pour iOS et Android), positionnez-vous sur les plus grands stores.<br /><strong>Techno du moment : ReactNative</strong>"
     }]
   },
   "projects": {
@@ -29,21 +29,21 @@
       "image": "hitek.png",
       "name": "Hitek.fr",
       "subtitle": "APPLICATION MOBILE IOS / ANDROID - REACTNATIVE",
-      "description": "Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "Refonte de l'application mobile pour le journal en ligne <a href=\"http://www.hitek.fr\" target=\"_blank\">Hitek.fr</a>. Anciennement sur Goodbarber, Hitek souhaitait avoir plus de souplesse quand à l'administration de leur contenu ainsi que leur affichage. Nous avons convenu que ReactNative était la solution adaptée à leur besoin en vue de cibler les utilisateurs iOS et Android.",
       "cta": "Voir l’application",
       "link": "https://itunes.apple.com/fr/app/hitek/id763667075?mt=8"
     }, {
       "image": "flickle.png",
       "name": "Flickle, movie recommendation",
       "subtitle": "APPLICATION MOBILE IOS - SWIFT",
-      "description": "Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "Développement de l'application iOS natif pour une jeune startup, Flickle. L'objectif de l'app est de proposer des idées de films en fonction des goûts de l'utilisateur pour ses soirées cinés. L'algorithme propose, via l'application, une sélection de films susceptibles de plaire à l'utilisateur en fonction des autres films qu'il a aimé ou non.",
       "cta": "Voir l’application",
       "link": "https://itunes.apple.com/fr/app/flickle-movie-recommendation/id1047085065?l=en&mt=8"
     }, {
       "image": "husqvarna.png",
       "name": "Husqvarna Services",
       "subtitle": "SITE RESPONSIVE - PHP LARAVEL",
-      "description": "Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "Développement d'une plateforme d'opérations commerciales pour Husqvarna (commanditaire <a href=\"http://www.groupeaxxess.fr/\" target=\"_blank\">Axxess Groupe</a>) permettant à la marque de proposer des opérations d'offres promotionnelles à ses revendeurs. Ces derniers ont également la possibilité de générer les supports de ventes administrables en fonction de leurs ventes et de leurs objectifs, le tout gérer via l'application responsive.",
       "cta": "Voir le site",
       "link": "http://www.husqvarna-operations.fr/"
     }]

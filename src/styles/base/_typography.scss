@@ -18,6 +18,10 @@ html {
   }
 }
 
+::selection {
+  background: #99d4c4;
+}
+
 body {
   color: #4C4245;
   font-family: 'Montserrat', sans-serif;
@@ -25,7 +29,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: $base-line-height;
-  user-select: none;
   margin: 0;
   padding: 0;
   b, strong {
