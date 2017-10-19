@@ -1,6 +1,5 @@
 // import vendors
 import React from 'react';
-import i18next from 'i18next-client';
 import createjs from 'preload-js';
 
 // import classes

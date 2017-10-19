@@ -1,6 +1,6 @@
 /*!
  * modernizr v3.5.0
- * Build https://modernizr.com/download?-details-input-picture-placeholder-pointerevents-supports-touchevents-addtest-fnbind-printshiv-testprop-dontmin
+ * Build https://modernizr.com/download?-details-input-picture-placeholder-pointerevents-supports-svg-touchevents-addtest-fnbind-printshiv-testprop-dontmin
  *
  * Copyright (c)
  *  Faruk Ates
@@ -1853,6 +1853,31 @@ This test will also return `true` for Firefox 4 Multitouch support.
     }
     return bool;
   });
+
+/*!
+{
+  "name": "SVG",
+  "property": "svg",
+  "caniuse": "svg",
+  "tags": ["svg"],
+  "authors": ["Erik Dahlstrom"],
+  "polyfills": [
+    "svgweb",
+    "raphael",
+    "amplesdk",
+    "canvg",
+    "svg-boilerplate",
+    "sie",
+    "dojogfx",
+    "fabricjs"
+  ]
+}
+!*/
+/* DOC
+Detects support for SVG in `<embed>` or `<object>` elements.
+*/
+
+  Modernizr.addTest('svg', !!document.createElementNS && !!document.createElementNS('http://www.w3.org/2000/svg', 'svg').createSVGRect);
 
 /*!
 {

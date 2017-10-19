@@ -3,7 +3,6 @@ import RoutesData from '../models/routes_data';
 import CoreLayout from '../layouts/CoreLayout';
 import SimpleLayout from '../layouts/SimpleLayout';
 import Page from '../views/Page';
-import NotFound from '../views/NotFound';
 
 /*  Note: Instead of using JSX, we recommend using react-router
     PlainRoute objects to build route definitions.   */
@@ -13,19 +12,12 @@ const routesData = RoutesData.getInstance();
 
 export const createRoutes = (store) => (
   {
-    path: '/',
+    path: '/*',
     childRoutes: [
       {
         component: CoreLayout,
         indexRoute: {
           component: Page
-        }
-      },
-      {
-        path: '/*',
-        component: SimpleLayout,
-        indexRoute: {
-          component: NotFound
         }
       }
     ]
