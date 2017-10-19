@@ -323,6 +323,7 @@ if (__STG__ || __PROD__) {
       { from: inProject(project.srcDir+'/'+project.assetsDir+'/fonts'), to: inProject(project.outDir+'/'+project.assetsDir+'/fonts') },
       { from: inProject(project.srcDir+'/'+project.assetsDir+'/vendors'), to: inProject(project.outDir+'/'+project.assetsDir+'/vendors') },
       { from: inProject(project.srcDir+'/favicon.ico'), to: inProject(project.outDir+'/') },
+      { from: inProject(project.srcDir+'/manifest.json'), to: inProject(project.outDir+'/') }
     ])
   );
 }
