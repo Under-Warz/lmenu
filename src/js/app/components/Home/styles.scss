@@ -13,6 +13,10 @@
     min-height: 768px;
   }
 
+  @include desktop {
+    min-height: 703px;
+  }
+
   .logo {
     position: absolute;
     top: 65px;

@@ -12,6 +12,10 @@
     background-repeat: no-repeat;
     background-size: contain;
     margin-bottom: 30px;
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      background-image: url(../../../../assets/images/logo-footer@2x.png);
+    }
   }
 
   p {
