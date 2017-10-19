@@ -52,6 +52,14 @@
     }
   }
 
+  a {
+    @include mobile {
+      &:hover {
+        padding: 13px 35px;
+      }
+    }
+  }
+
   .scroll {
     position: absolute;
     text-align: center;

@@ -43,7 +43,26 @@
     "message": "Ravi de la collaboration avec Laurent. Efficace et très réactif, l'application IOS est à la hauteur de ce que nous souhaitions.",
     "initials": "AD",
     "thumb": null,
-    "function": "Anthony De Oliveira - QUITOQUE"
+    "function": "Anthony De Oliveira - QUITOQUE",
+    "color": "#A9D44C"
+  }, {
+    "message": "Laurent est quelqu'un de très professionnel et très appliqué. Les projets que nous avons menés ensemble ont toujours été très satisfaisants et je n'hésiterai pas à faire de nouveau appel à lui pour le développement de nos sites Internet. Réactivité et bon sens au rendez-vous, un vrai bon contact !",
+    "initials": "EF",
+    "thumb": null,
+    "function": "Emmanuelle Floc'H - Impact Communication",
+    "color": "#7D3E7F"
+  }, {
+    "message": "Application iOS ? Sites web et webapps Facebook Connectés en responsive, pensez à Laurent ! ; ) Autonome et efficace, super service, je n'hésite pas une seconde à vous le recommander ^^",
+    "initials": "GL",
+    "thumb": "https://cloudinary-a.akamaihd.net/hopwork/image/upload/t_mini_comment/wgflh0gxmh6qpmp21gft.jpg",
+    "function": "Georges Langeard - Milky",
+    "color": "#7D3E7F"
+  }, {
+    "message": "Déjà 2 missions web effectuées avec Laurent, travail toujours très satisfaisant. Rapide, rigoureux et efficace. Je n'hésiterai pas à refaire appel à lui et à vous le recommander !",
+    "initials": "GC",
+    "thumb": "https://cloudinary-a.akamaihd.net/hopwork/image/upload/t_mini_comment/djn14dcgbjhguj2e4hf4.jpg",
+    "function": "Gabriel Csabaï - TBWA",
+    "color": "#7D3E7F"
   }],
   "contact": {
     "title": "On travaille ensemble ?",
