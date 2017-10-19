@@ -22,7 +22,7 @@ class Projects extends React.Component {
           <h4>{project.name}</h4>
           <ul><li><span><i></i>{project.subtitle}</span></li></ul>
           <p>{project.description}</p>
-          <Button href="#">{project.cta}</Button>
+          <Button href={project.link} target="_blank">{project.cta}</Button>
         </div>
       </div>;
     });

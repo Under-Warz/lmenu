@@ -30,13 +30,22 @@
       "name": "Hitek.fr",
       "subtitle": "APPLICATION MOBILE IOS / ANDROID - REACTNATIVE",
       "description": "Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "cta": "Voir l’application"
+      "cta": "Voir l’application",
+      "link": "https://itunes.apple.com/fr/app/hitek/id763667075?mt=8"
+    }, {
+      "image": "flickle.png",
+      "name": "Flickle, movie recommendation",
+      "subtitle": "APPLICATION MOBILE IOS - SWIFT",
+      "description": "Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "cta": "Voir l’application",
+      "link": "https://itunes.apple.com/fr/app/flickle-movie-recommendation/id1047085065?l=en&mt=8"
     }, {
       "image": "husqvarna.png",
       "name": "Husqvarna Services",
       "subtitle": "SITE RESPONSIVE - PHP LARAVEL",
       "description": "Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "cta": "Voir le site"
+      "cta": "Voir le site",
+      "link": "http://www.husqvarna-operations.fr/"
     }]
   },
   "testimonials": [{
