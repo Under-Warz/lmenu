@@ -1,0 +1,10 @@
+{
+  "path": "./assets/images/",
+  "manifest": [
+    "logo-footer.png",
+    "logo-footer@2x.png",
+    "projects/flickle.png",
+    "projects/hitek.png",
+    "projects/husqvarna.png"
+  ]
+}

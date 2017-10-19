@@ -1,0 +1,38 @@
+:local(.loader) {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(#99D4C4, #B0CEA6);
+  position: fixed;
+  background-size: 100% 150%;
+  background-position: 0% 0%;
+  @include animation(homeBackgroundAnimation, 0, 30s, infinite, ease, initial);
+  z-index: 99;
+
+  &.hide {
+    opacity: 0;
+  }
+
+  .loader-container {
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+    .loader {
+      display: block;
+      width: 47px;
+      height: 47px;
+      margin: 0 auto;
+      background: url(../../../../assets/images/loader.svg) no-repeat;
+      background-size: contain;
+      @include animation(loading, 0, 5s, infinite, linear, initial);
+    }
+  }
+
+  p {
+    text-align: center;
+    font-weight: 300;
+    color: #fff;
+    font-size: 14px;
+    line-height: 19px;
+  }
+}

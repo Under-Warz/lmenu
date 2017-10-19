@@ -3508,9 +3508,9 @@ https-browserify@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-0.0.1.tgz#3f91365cabe60b77ed0ebba24b454e3e09d95a82"
 
-i18next-client@^1.11.4:
-  version "1.11.5"
-  resolved "https://registry.yarnpkg.com/i18next-client/-/i18next-client-1.11.5.tgz#4d3e434929d7855d994296b9593849a1e1f1f7c3"
+i18next@^10.0.1:
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-10.0.1.tgz#ce682ef7c43590d015b0cc5cef31f226475d0a3f"
 
 iconv-lite@~0.4.13:
   version "0.4.18"
@@ -5593,6 +5593,10 @@ postcss@^6.0.1:
     chalk "^2.0.1"
     source-map "^0.5.6"
     supports-color "^4.2.0"
+
+preload-js@^0.6.3:
+  version "0.6.3"
+  resolved "https://registry.yarnpkg.com/preload-js/-/preload-js-0.6.3.tgz#dcb4b7c0e182dbbce2677ad4f2cfaee2e25b4df7"
 
 prepend-http@^1.0.0, prepend-http@^1.0.1:
   version "1.0.4"

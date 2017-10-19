@@ -64,6 +64,7 @@
     "i18next": "^10.0.1",
     "lodash": "^4.17.4",
     "modernizr": "^3.5.0",
+    "preload-js": "^0.6.3",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",

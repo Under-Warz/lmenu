@@ -1,8 +1,10 @@
 // import vendors
 import React from 'react';
 import i18next from 'i18next-client';
+import createjs from 'preload-js';
 
 // import classes
+import Loader from '../../components/Loader';
 import Home from '../../components/Home';
 import Skills from '../../components/Skills';
 import Projects from '../../components/Projects';
@@ -21,6 +23,11 @@ class Page extends React.Component {
   // -                                           CONSTRUCTOR
   constructor(props) {
     super(props);
+
+    this.state = {
+      showLoader: true,
+      willHideLoader: false
+    };
   }
 
   //________________________________________________________
@@ -34,11 +41,30 @@ class Page extends React.Component {
     return false;
   }
 
+  _handleFileComplete = (e) => {
+    this.setState({
+      willHideLoader: true
+    });
+  }
+
   //________________________________________________________
   // -                                        PUBLIC METHODS
+
+  componentDidMount() {
+    let queue = new createjs.LoadQueue(false);
+    queue.on("fileload", this._handleFileComplete);
+    queue.loadManifest({
+      src: "../../../../manifest.json",
+      type: "manifest"
+    });
+  }
+
   render() {
     return (
       <div className={styles.page}>
+        {this.state.showLoader && <Loader
+          willHide={this.state.willHideLoader}
+          onHide={() => this.setState({showLoader: false})} />}
         <Home onClick={this._onClickAvailable} />
         <Skills />
         <Projects />
