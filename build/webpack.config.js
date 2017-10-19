@@ -159,9 +159,9 @@ config.plugins.push(extractStyles);
 config.module.rules.push({
   test: /\.(png|jpe?g|gif)$/,
   loader: 'url-loader',
-  /*options: {
+  options: {
     limit: 8192,
-  },*/
+  },
 });
 // Optimize images loaded via script (imported in js)
 config.module.rules.push({
