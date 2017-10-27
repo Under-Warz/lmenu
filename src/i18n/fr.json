@@ -29,8 +29,8 @@
     "projects": [{
       "image": "hitek.png",
       "name": "Hitek.fr",
-      "subtitle": "APPLICATION MOBILE IOS / ANDROID - REACTNATIVE",
-      "description": "Refonte de l'application mobile pour le journal en ligne <a href=\"http://www.hitek.fr\" target=\"_blank\">Hitek.fr</a>. Anciennement sur Goodbarber, Hitek souhaitait avoir plus de souplesse quand à l'administration de leur contenu ainsi que leur affichage. Nous avons convenu que ReactNative était la solution adaptée à leur besoin en vue de cibler les utilisateurs iOS et Android.",
+      "subtitle": "APPLICATION MOBILE IOS / ANDROID - REACT NATIVE",
+      "description": "Refonte de l'application mobile pour le journal en ligne <a href=\"http://www.hitek.fr\" target=\"_blank\">Hitek.fr</a>. Anciennement développé sur Goodbarber, Hitek souhaitait avoir plus de souplesse quand à l'administration de leurs contenus et l'affichage de ces derniers. Nous avons convenu que React Native était la solution adaptée à leurs besoins en vue de cibler les utilisateurs iOS et Android.",
       "cta": "Voir l’application",
       "link": "https://itunes.apple.com/fr/app/hitek/id763667075?mt=8"
     }, {
@@ -44,7 +44,7 @@
       "image": "husqvarna.png",
       "name": "Husqvarna Services",
       "subtitle": "SITE RESPONSIVE - PHP LARAVEL",
-      "description": "Développement d'une plateforme d'opérations commerciales pour Husqvarna (commanditaire <a href=\"http://www.groupeaxxess.fr/\" target=\"_blank\">Axxess Groupe</a>) permettant à la marque de proposer des opérations d'offres promotionnelles à ses revendeurs. Ces derniers ont également la possibilité de générer les supports de ventes administrables en fonction de leurs ventes et de leurs objectifs, le tout gérer via l'application responsive.",
+      "description": "Développement d'une plateforme d'opérations commerciales pour Husqvarna (commanditaire <a href=\"http://www.groupeaxxess.fr/\" target=\"_blank\">Axxess Groupe</a>), permettant à la marque de proposer des procédés d'offres promotionnelles à ses revendeurs. Ces derniers ont également la possibilité de générer les supports de ventes administrables en fonction de leurs ventes et de leurs objectifs, le tout gérer via l'application responsive.",
       "cta": "Voir le site",
       "link": "http://www.husqvarna-operations.fr/"
     }]
