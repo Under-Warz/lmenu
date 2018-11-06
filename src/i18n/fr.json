@@ -9,71 +9,85 @@
   "skills": {
     "title": "Mon expertise",
     "subtitle": "J'ai des compétences dans chaque étapes du développement",
-    "skills": [{
-      "icon": "icon-front",
-      "title": "Front",
-      "text": "Je m'occupe de l'intégration de vos maquettes pour leur donner vie en utilisant les technos habituelles à savoir HTML, CSS et Javascript.<br /><strong>Techno du moment : React.JS</strong>"
-    }, {
-      "icon": "icon-back",
-      "title": "Back",
-      "text": "Je m'occupe de raccorder les applications front à la base de données via une API en utilisant les technos appropriées à chaque projet comme par exemple PHP (Laravel) ou NodeJS.<br /><strong>Techno du moment : NodeJS avec Express</strong><strong>"
-    }, {
-      "icon": "icon-mobile",
-      "title": "Mobile",
-      "text": "Le développement des applications mobiles est également une part importante de mon métier. Que ce soit en language natif (Swift pour iOS ou Java pour Android) ou bien crossplatforme (code unique pour iOS et Android), positionnez-vous sur les plus grands stores.<br /><strong>Techno du moment : ReactNative</strong>"
-    }]
+    "skills": [
+      {
+        "icon": "icon-front",
+        "title": "Front",
+        "text": "Je m'occupe de l'intégration de vos maquettes pour leur donner vie en utilisant les technos habituelles à savoir HTML, CSS et Javascript.<br /><strong>Techno du moment : React.JS</strong>"
+      },
+      {
+        "icon": "icon-back",
+        "title": "Back",
+        "text": "Je m'occupe de raccorder les applications front à la base de données via une API en utilisant les technos appropriées à chaque projet comme par exemple PHP (Laravel) ou NodeJS.<br /><strong>Techno du moment : NodeJS avec Express</strong><strong>"
+      },
+      {
+        "icon": "icon-mobile",
+        "title": "Mobile",
+        "text": "Le développement des applications mobiles est également une part importante de mon métier. Que ce soit en language natif (Swift pour iOS ou Java pour Android) ou bien crossplatforme (code unique pour iOS et Android), positionnez-vous sur les plus grands stores.<br /><strong>Techno du moment : ReactNative</strong>"
+      }
+    ]
   },
   "projects": {
     "title": "Derniers projets",
     "subtitle": "Vous souhaitez en voir plus ? <a href=\"mailto:hello@lmenu.fr\">Contactez-moi</a>.",
-    "projects": [{
-      "image": "hitek.png",
-      "name": "Hitek.fr",
-      "subtitle": "APPLICATION MOBILE IOS / ANDROID - REACT NATIVE",
-      "description": "Refonte de l'application mobile pour le journal en ligne <a href=\"http://www.hitek.fr\" target=\"_blank\">Hitek.fr</a>. Anciennement développé sur Goodbarber, Hitek souhaitait avoir plus de souplesse quand à l'administration de leurs contenus et l'affichage de ces derniers. Nous avons convenu que React Native était la solution adaptée à leurs besoins en vue de cibler les utilisateurs iOS et Android.",
-      "cta": "Voir l’application",
-      "link": "https://itunes.apple.com/fr/app/hitek/id763667075?mt=8"
-    }, {
-      "image": "flickle.png",
-      "name": "Flickle, movie recommendation",
-      "subtitle": "APPLICATION MOBILE IOS - SWIFT",
-      "description": "Développement de l'application iOS natif pour une jeune startup, Flickle. L'objectif de l'app est de proposer des idées de films en fonction des goûts de l'utilisateur pour ses soirées cinés. L'algorithme propose, via l'application, une sélection de films susceptibles de plaire à l'utilisateur en fonction des autres films qu'il a aimé ou non.",
-      "cta": "Voir l’application",
-      "link": "https://itunes.apple.com/fr/app/flickle-movie-recommendation/id1047085065?l=en&mt=8"
-    }, {
-      "image": "husqvarna.png",
-      "name": "Husqvarna Services",
-      "subtitle": "SITE RESPONSIVE - PHP LARAVEL",
-      "description": "Développement d'une plateforme d'opérations commerciales pour Husqvarna (commanditaire <a href=\"http://www.groupeaxxess.fr/\" target=\"_blank\">Axxess Groupe</a>), permettant à la marque de proposer des procédés d'offres promotionnelles à ses revendeurs. Ces derniers ont également la possibilité de générer les supports de ventes administrables en fonction de leurs ventes et de leurs objectifs, le tout gérer via l'application responsive.",
-      "cta": "Voir le site",
-      "link": "http://www.husqvarna-operations.fr/"
-    }]
+    "projects": [
+      {
+        "image": "coot.png",
+        "imageRetina": "coot@2x.png",
+        "name": "Coot",
+        "subtitle": "APPLICATION MOBILE IOS / ANDROID - REACT NATIVE",
+        "description": "Développement de l'application à destination des parents séparés. Coot a pour but d'offir une solution simple et gratuite pour l'organisation du quotidien.",
+        "cta": "Voir l’application",
+        "link": "https://itunes.apple.com/fr/app/coot-pour-les-parents-s%C3%A9par%C3%A9s/id1345299534?mt=8"
+      },
+      {
+        "image": "flickle.png",
+        "name": "Flickle, movie recommendation",
+        "subtitle": "APPLICATION MOBILE IOS - SWIFT",
+        "description": "Développement de l'application iOS natif pour une jeune startup, Flickle. L'objectif de l'app est de proposer des idées de films en fonction des goûts de l'utilisateur pour ses soirées cinés. L'algorithme propose, via l'application, une sélection de films susceptibles de plaire à l'utilisateur en fonction des autres films qu'il a aimé ou non.",
+        "cta": "Voir l’application",
+        "link": "https://itunes.apple.com/fr/app/flickle-movie-recommendation/id1047085065?l=en&mt=8"
+      },
+      {
+        "image": "husqvarna.png",
+        "name": "Husqvarna Services",
+        "subtitle": "SITE RESPONSIVE - PHP LARAVEL",
+        "description": "Développement d'une plateforme d'opérations commerciales pour Husqvarna (commanditaire <a href=\"http://www.groupeaxxess.fr/\" target=\"_blank\">Axxess Groupe</a>), permettant à la marque de proposer des procédés d'offres promotionnelles à ses revendeurs. Ces derniers ont également la possibilité de générer les supports de ventes administrables en fonction de leurs ventes et de leurs objectifs, le tout gérer via l'application responsive.",
+        "cta": "Voir le site",
+        "link": "http://www.husqvarna-operations.fr/"
+      }
+    ]
   },
-  "testimonials": [{
-    "message": "Ravi de la collaboration avec Laurent. Efficace et très réactif, l'application IOS est à la hauteur de ce que nous souhaitions.",
-    "initials": "AD",
-    "thumb": null,
-    "function": "Anthony De Oliveira - QUITOQUE",
-    "color": "#A9D44C"
-  }, {
-    "message": "Laurent est quelqu'un de très professionnel et très appliqué. Les projets que nous avons menés ensemble ont toujours été très satisfaisants et je n'hésiterai pas à faire de nouveau appel à lui pour le développement de nos sites Internet. Réactivité et bon sens au rendez-vous, un vrai bon contact !",
-    "initials": "EF",
-    "thumb": null,
-    "function": "Emmanuelle Floc'H - Impact Communication",
-    "color": "#7D3E7F"
-  }, {
-    "message": "Application iOS ? Sites web et webapps Facebook Connectés en responsive, pensez à Laurent ! ; ) Autonome et efficace, super service, je n'hésite pas une seconde à vous le recommander ^^",
-    "initials": "GL",
-    "thumb": "https://cloudinary-a.akamaihd.net/hopwork/image/upload/t_mini_comment/wgflh0gxmh6qpmp21gft.jpg",
-    "function": "Georges Langeard - Milky",
-    "color": "#7D3E7F"
-  }, {
-    "message": "Déjà 2 missions web effectuées avec Laurent, travail toujours très satisfaisant. Rapide, rigoureux et efficace. Je n'hésiterai pas à refaire appel à lui et à vous le recommander !",
-    "initials": "GC",
-    "thumb": "https://cloudinary-a.akamaihd.net/hopwork/image/upload/t_mini_comment/djn14dcgbjhguj2e4hf4.jpg",
-    "function": "Gabriel Csabaï - TBWA",
-    "color": "#7D3E7F"
-  }],
+  "testimonials": [
+    {
+      "message": "Ravi de la collaboration avec Laurent. Efficace et très réactif, l'application IOS est à la hauteur de ce que nous souhaitions.",
+      "initials": "AD",
+      "thumb": null,
+      "function": "Anthony De Oliveira - QUITOQUE",
+      "color": "#A9D44C"
+    },
+    {
+      "message": "Laurent est quelqu'un de très professionnel et très appliqué. Les projets que nous avons menés ensemble ont toujours été très satisfaisants et je n'hésiterai pas à faire de nouveau appel à lui pour le développement de nos sites Internet. Réactivité et bon sens au rendez-vous, un vrai bon contact !",
+      "initials": "EF",
+      "thumb": null,
+      "function": "Emmanuelle Floc'H - Impact Communication",
+      "color": "#7D3E7F"
+    },
+    {
+      "message": "Application iOS ? Sites web et webapps Facebook Connectés en responsive, pensez à Laurent ! ; ) Autonome et efficace, super service, je n'hésite pas une seconde à vous le recommander ^^",
+      "initials": "GL",
+      "thumb": "https://cloudinary-a.akamaihd.net/hopwork/image/upload/t_mini_comment/wgflh0gxmh6qpmp21gft.jpg",
+      "function": "Georges Langeard - Milky",
+      "color": "#7D3E7F"
+    },
+    {
+      "message": "Déjà 2 missions web effectuées avec Laurent, travail toujours très satisfaisant. Rapide, rigoureux et efficace. Je n'hésiterai pas à refaire appel à lui et à vous le recommander !",
+      "initials": "GC",
+      "thumb": "https://cloudinary-a.akamaihd.net/hopwork/image/upload/t_mini_comment/djn14dcgbjhguj2e4hf4.jpg",
+      "function": "Gabriel Csabaï - TBWA",
+      "color": "#7D3E7F"
+    }
+  ],
   "contact": {
     "title": "On travaille ensemble ?",
     "subtitle": "Je serais ravi d’écouter votre projet pour voir ce que nous pourrions faire ensemble. N’hésitez à m’en toucher deux mots.",
