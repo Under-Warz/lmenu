@@ -40,13 +40,15 @@ class Projects extends React.Component {
                 </li>
               </ul>
               <p dangerouslySetInnerHTML={{ __html: project.description }} />
-              <Button
-                href={project.link}
-                onClick={e => this._onClickProject(project.name)}
-                target="_blank"
-              >
-                {project.cta}
-              </Button>
+              {project.link && (
+                <Button
+                  href={project.link}
+                  onClick={e => this._onClickProject(project.name)}
+                  target="_blank"
+                >
+                  {project.cta}
+                </Button>
+              )}
             </div>
           </div>
         );

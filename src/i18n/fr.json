@@ -32,6 +32,15 @@
     "subtitle": "Vous souhaitez en voir plus ? <a href=\"mailto:hello@lmenu.fr\">Contactez-moi</a>.",
     "projects": [
       {
+        "image": "govirtuo.png",
+        "imageRetina": "govirtuo@2x.png",
+        "name": "Virtuo Technologies",
+        "subtitle": "SITE RESPONSIVE - REACT JS",
+        "description": "Créée en 2015, Virtuo propose un service innovant de location de voiture premium en utilisant le portable en guise de clé.<br /><br />J'ai rejoint l'équipe tech de Virtuo dans le but de participer à la refonte de la version web responsive pour se rapprocher des fonctionnalités de l'application mobile.<br /><br />La stack web front chez Virtuo, c'est :<br />- Next.JS pour booster le référencement<br />- React<br />- Webpack",
+        "cta": "Voir le site",
+        "link": "https://www.govirtuo.com/"
+      },
+      {
         "image": "coot.png",
         "imageRetina": "coot@2x.png",
         "name": "Coot",
@@ -44,17 +53,7 @@
         "image": "flickle.png",
         "name": "Flickle, movie recommendation",
         "subtitle": "APPLICATION MOBILE IOS - SWIFT",
-        "description": "Développement de l'application iOS natif pour une jeune startup, Flickle. L'objectif de l'app est de proposer des idées de films en fonction des goûts de l'utilisateur pour ses soirées cinés. L'algorithme propose, via l'application, une sélection de films susceptibles de plaire à l'utilisateur en fonction des autres films qu'il a aimé ou non.",
-        "cta": "Voir l’application",
-        "link": "https://itunes.apple.com/fr/app/flickle-movie-recommendation/id1047085065?l=en&mt=8"
-      },
-      {
-        "image": "husqvarna.png",
-        "name": "Husqvarna Services",
-        "subtitle": "SITE RESPONSIVE - PHP LARAVEL",
-        "description": "Développement d'une plateforme d'opérations commerciales pour Husqvarna (commanditaire <a href=\"http://www.groupeaxxess.fr/\" target=\"_blank\">Axxess Groupe</a>), permettant à la marque de proposer des procédés d'offres promotionnelles à ses revendeurs. Ces derniers ont également la possibilité de générer les supports de ventes administrables en fonction de leurs ventes et de leurs objectifs, le tout gérer via l'application responsive.",
-        "cta": "Voir le site",
-        "link": "http://www.husqvarna-operations.fr/"
+        "description": "Développement de l'application iOS natif pour une jeune startup, Flickle. L'objectif de l'app est de proposer des idées de films en fonction des goûts de l'utilisateur pour ses soirées cinés. L'algorithme propose, via l'application, une sélection de films susceptibles de plaire à l'utilisateur en fonction des autres films qu'il a aimé ou non."
       }
     ]
   },

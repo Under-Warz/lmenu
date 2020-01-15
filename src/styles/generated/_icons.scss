@@ -168,14 +168,14 @@ $icon-github: "\EA08";
 }
 
 // Save variable
-$icon-hopwork: "\EA09";
+$icon-malt: "\EA0A";
 // Expose as class
-.icon.icon-hopwork:before {
-  content: $icon-hopwork;
+.icon.icon-malt:before {
+  content: $icon-malt;
 }
 // Save mixin
-@mixin icon--hopwork {
-  @include icon($icon-hopwork) {
+@mixin icon--malt {
+  @include icon($icon-malt) {
     @content;
   }
 }
