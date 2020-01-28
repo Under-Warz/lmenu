@@ -3,8 +3,11 @@
   "manifest": [
     "logo-footer.png",
     "logo-footer@2x.png",
-    "projects/flickle.png",
-    "projects/hitek.png",
-    "projects/husqvarna.png"
+    "projects/govirtuo.png",
+    "projects/govirtuo@2x.png",
+    "projects/frenchkiss.png",
+    "projects/frenchkiss@2x.png",
+    "projects/coot.png",
+    "projects/coot@2x.png"
   ]
 }

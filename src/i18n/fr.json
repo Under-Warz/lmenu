@@ -41,19 +41,22 @@
         "link": "https://www.govirtuo.com/"
       },
       {
+        "image": "frenchkiss.png",
+        "imageRetina": "frenchkiss@2x.png",
+        "name": "French-Kiss",
+        "subtitle": "APPLICATION MOBILE IOS / ANDROID - REACT NATIVE",
+        "description": "Refonte de l'application mobile de rencontre French-Kiss pour iOS / Android.<br /><br />- React Native<br />- Mobx<br />- ES6 / TypeScript",
+        "cta": "Voir l’application",
+        "link": "https://apps.apple.com/fr/app/french-kiss/id1348735405"
+      },
+      {
         "image": "coot.png",
         "imageRetina": "coot@2x.png",
         "name": "Coot",
         "subtitle": "APPLICATION MOBILE IOS / ANDROID - REACT NATIVE",
-        "description": "Développement de l'application à destination des parents séparés. Coot a pour but d'offir une solution simple et gratuite pour l'organisation du quotidien.",
+        "description": "Développement de l'application à destination des parents séparés. Coot a pour but d'offir une solution simple et gratuite pour l'organisation du quotidien.<br /><br />- React Native<br />- Redux<br />- ES6 / TypeScript",
         "cta": "Voir l’application",
         "link": "https://itunes.apple.com/fr/app/coot-pour-les-parents-s%C3%A9par%C3%A9s/id1345299534?mt=8"
-      },
-      {
-        "image": "flickle.png",
-        "name": "Flickle, movie recommendation",
-        "subtitle": "APPLICATION MOBILE IOS - SWIFT",
-        "description": "Développement de l'application iOS natif pour une jeune startup, Flickle. L'objectif de l'app est de proposer des idées de films en fonction des goûts de l'utilisateur pour ses soirées cinés. L'algorithme propose, via l'application, une sélection de films susceptibles de plaire à l'utilisateur en fonction des autres films qu'il a aimé ou non."
       }
     ]
   },
