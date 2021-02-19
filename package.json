@@ -60,7 +60,7 @@
     "apisauce": "^0.14.0",
     "babel-polyfill": "^6.23.0",
     "fastclick": "^1.0.6",
-    "gsap": "^1.20.2",
+    "gsap": "^3.6.0",
     "i18next": "^10.0.1",
     "modernizr": "^3.5.0",
     "preload-js": "^0.6.3",
